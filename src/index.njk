@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/favicon.png" type="image/png" rel="icon" />
+    <link href="/style.css" rel="stylesheet" />
+    <title>Zach Kusz</title>
+</head>
+<body class="bg-zinc-800 text-zinc-50 flex flex-col">
+    <header class="px-8 py-16 md:p-32">
+        <h1 class="text-5xl">Hello! Thank you for checking out my web portfolio.</h1>
+        <p class="pt-4 md:pt-0">This site links to a few of my personal projects I've created over the years. - Zach Kusz</p>
+    </header>
+
+    <section class="border-4 border-blue-400 rounded-lg mt-0 m-2 md:m-8 p-8">
+        <h3 class="text-xl">The following sites are all original work, created by me to:</h3>
+        <ul class="text-2xl md:text-3xl list-disc list-outside md:mx-8 py-8">
+            <li>Solve specific problems for myself, my family and friends.</li>
+            <li>Have fun making websites without deadlines.</li>
+            <li>Test out new technologies - you learn more from using something than by reading about it.</li>
+            <li>Show my dedication to continuous learning in javascript, the web, and cloud technologies.</li>
+        </ul>
+
+        <p class="">
+            The sites don't showcase my main tech stacks (Angular/React) and some don't show the best of my design ability.
+            I didn't make them to impress,
+            I made them for the reasons listed above and I hope by sharing them it can give us a starting point for conversations about coding and learning.
+        </p>
+    </section>
+
+    <section class="grid auto-rows-auto grid-cols-1 md:grid-cols-3 xl:grid-cols-4">
+        {% for project in collections.projects -%}
+            <article class="p-8 m-2 md:m-4 rounded-lg border-4 border-green-500 flex flex-col justify-between">
+                <div clas="">
+                <h3 class="text-blue-400 text-center">
+                    {% if project.data.links.main -%}
+                    <a href={{ project.data.links.main }} target="_blank" class="underline">{{ project.data.title }}</a>
+                    {%- else -%}
+                    {{ project.data.title }}
+                    {% endif -%}
+                </h3>
+                <p>{{ project.content | safe }}</p>
+                </div>
+                <div class="m-4 text-center">
+                    {%- if project.data.links.github -%}
+                        <a href={{ project.data.links.github }} target="_blank">
+                            <img src="/github-mark.svg" alt="github octocat" class="w-8 h-8 github-link inline" />
+                        </a>
+                    {% endif -%}
+                    {%- if project.data.links.github2 -%}
+                    <span> - </span>
+                        <a href={{ project.data.links.github2 }} target="_blank" class="inline">
+                            <img src="/github-mark.svg" alt="github octocat" class="w-8 h-8 github-link inline" />
+                        </a>
+                    {% endif -%}
+                </div>
+            </article>
+        {%- endfor -%}
+    </section>
+
+    <section class="flex flex-col items-center">
+        <h2 class="text-2xl p-8 text-center">FAQ</h2>
+        {% for faq in collections.faq -%}
+            <article class="p-8 max-w-2xl">
+                <h3 class="text-blue-400">{{ faq.data.title }}</h3>
+                <p>{{ faq.content | safe }}</p>
+            </article>
+        {%- endfor -%}
+    </section>
+</body>
+</html>
