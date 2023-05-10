@@ -3,7 +3,7 @@ tags: projects
 permalink: false
 links:
     main: null
-    github: null
+    github: https://github.com/z-s-kusz/portfolio
 title: Web Portfolio (this site)
 ---
 
