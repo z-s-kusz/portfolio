@@ -2,9 +2,9 @@
 tags: projects
 permalink: false
 links:
-    main: https://formar-los-groupos.netlify.app/myClasses
+    main: https://formar-los-grupos.netlify.app
     github: https://github.com/z-s-kusz/pods
-title: Formar Los Groupos
+title: Formar Los Grupos
 ---
 
 My wife was frustrated with the group generators she found online for grouping her class for activities.
