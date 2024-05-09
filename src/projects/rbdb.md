@@ -2,7 +2,7 @@
 tags: projects
 permalink: false
 links:
-    main: https://zrbdb.netlify.app/
+    main: https://zrbdb.com/
     github: https://github.com/z-s-kusz/z-rbdb
     github2: https://github.com/z-s-kusz/z-rbdb-data-populator
 title: Rock Band Database

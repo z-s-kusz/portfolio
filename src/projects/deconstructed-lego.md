@@ -2,7 +2,7 @@
 tags: projects
 permalink: false
 links:
-    main: https://deconstructed-lego.netlify.app/
+    main: https://deconstructed-lego.com
     github: https://github.com/z-s-kusz/deconstructed-lego
 title: Deconstructed Lego
 ---
