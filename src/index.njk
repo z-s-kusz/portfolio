@@ -11,7 +11,7 @@
 <body class="bg-zinc-800 text-zinc-50 flex flex-col items-center">
     <header class="px-8 py-16 md:p-32">
         <h1 class="text-4xl md:text-5xl">Hello! Thank you for checking out my web portfolio.</h1>
-        <p class="pt-4 md:pt-0">This site links to a few of my personal projects I've created over the years. - Zach Kusz</p>
+        <p class="pt-4 md:pt-2">This site links to a few of my personal projects I've created over the years. - Zach Kusz</p>
     </header>
 
     <section class="border-4 border-blue-400 rounded-lg mt-0 m-2 max-w-5xl md:m-8 p-8">
@@ -30,7 +30,7 @@
         </p>
     </section>
 
-    <section class="grid auto-rows-auto grid-cols-1 md:grid-cols-3 xl:grid-cols-4">
+    <section class="grid auto-rows-auto grid-cols-1 md:grid-cols-3 xl:grid-cols-4 md:mx-8">
         {% for project in collections.projects -%}
             <article class="p-8 m-2 md:m-4 rounded-lg border-4 border-green-500 flex flex-col justify-between">
                 <div clas="">
@@ -43,7 +43,7 @@
                 </h3>
                 <p>{{ project.content | safe }}</p>
                 </div>
-                <div class="m-4 text-center">
+                <div class="m-2 mb-0 text-center">
                     {%- if project.data.links.github -%}
                         <a href={{ project.data.links.github }} target="_blank">
                             <img src="/github-mark.svg" alt="github octocat" class="w-8 h-8 github-link inline" />
@@ -61,7 +61,7 @@
     </section>
 
     <section class="flex flex-col items-center">
-        <h2 class="text-2xl p-8 text-center">FAQ</h2>
+        <h2 class="text-2xl p-8 text-center border-b-2 border-zinc-50">FAQ</h2>
         {% for faq in collections.faq -%}
             <article class="p-8 max-w-2xl">
                 <h3 class="text-blue-400">{{ faq.data.title }}</h3>

@@ -7,8 +7,8 @@ links:
 title: Deconstructed Lego
 ---
 
-This one is more of a tech test.
-I wanted to try out Nuxt and the ‘Nuxt Content' static site generator.
+This started as a tech test and became one of my favorite projects!
+I wanted to try out Nuxt and its static site generator.
 I thought using images of lego flat lays that I've been making for a few years would be good for the content.
 
 <div class="text-blue-400 border-t-2 border-zinc-50 mt-4 pt-4">

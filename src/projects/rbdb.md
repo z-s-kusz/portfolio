@@ -8,10 +8,10 @@ links:
 title: Rock Band Database
 ---
 
-“Rock Band still exists and you still play it?” Yes!
-Hook up 3 mics and you have an awesome setup for karaoke.
-This site allows people to look up what songs we can play, eliminating down time.
-Database populated by bulk scraping wikipedia tables.
+“Rock Band still exists and you play it?” Yes!
+Connect 3 mics and you have an awesome setup for karaoke.
+This site lets people look up what songs we can play, eliminating down time.
+Database populated by scraping wikipedia tables.
 
 <div class="text-blue-400 border-t-2 border-zinc-50 mt-4 pt-4">
 SPA, Google Cloud Firestore, Vue 3, Typescript, SCSS, Vuetify, node, cheerio
