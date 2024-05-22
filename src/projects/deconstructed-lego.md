@@ -1,6 +1,7 @@
 ---
 tags: projects
 permalink: false
+importance: 10
 links:
     main: https://deconstructed-lego.com
     github: https://github.com/z-s-kusz/deconstructed-lego

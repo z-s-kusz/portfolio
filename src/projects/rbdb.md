@@ -1,6 +1,7 @@
 ---
 tags: projects
 permalink: false
+importance: 8
 links:
     main: https://zrbdb.com/
     github: https://github.com/z-s-kusz/z-rbdb

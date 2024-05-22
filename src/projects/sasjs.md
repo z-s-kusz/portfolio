@@ -1,6 +1,7 @@
 ---
 tags: projects
 permalink: false
+importance: 5
 links:
     main: https://color-golf.netlify.app/poetry
     github: https://github.com/z-s-kusz/short-attention-span-js

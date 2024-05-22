@@ -1,6 +1,7 @@
 ---
 tags: projects
 permalink: false
+importance: 3
 links:
     main: null
     github: https://github.com/z-s-kusz/mhw-weakness-finder

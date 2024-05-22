@@ -1,6 +1,7 @@
 ---
 tags: projects
 permalink: false
+importance: 4
 links:
     main: https://zs-loot-tracker.netlify.app/
     github: https://github.com/z-s-kusz/zero-sievert-quest-helper

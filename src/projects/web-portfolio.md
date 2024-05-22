@@ -1,6 +1,7 @@
 ---
 tags: projects
 permalink: false
+importance: 0
 links:
     main: null
     github: https://github.com/z-s-kusz/portfolio

@@ -31,9 +31,8 @@
     </section>
 
     <section class="grid auto-rows-auto grid-cols-1 md:grid-cols-3 xl:grid-cols-4 md:mx-8">
-        {% for project in collections.projects -%}
+        {% for project in collections.sortedProjects -%}
             <article class="p-8 m-2 md:m-4 rounded-lg border-4 border-green-500 flex flex-col justify-between">
-                <div clas="">
                 <h3 class="text-blue-400 text-center">
                     {% if project.data.links.main -%}
                     <a href={{ project.data.links.main }} target="_blank" class="underline">{{ project.data.title }}</a>
@@ -42,7 +41,7 @@
                     {% endif -%}
                 </h3>
                 <p>{{ project.content | safe }}</p>
-                </div>
+
                 <div class="m-2 mb-0 text-center">
                     {%- if project.data.links.github -%}
                         <a href={{ project.data.links.github }} target="_blank">

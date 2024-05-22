@@ -1,6 +1,7 @@
 ---
 tags: projects
 permalink: false
+importance: 1
 links:
     main: https://formar-los-grupos.netlify.app
     github: https://github.com/z-s-kusz/pods

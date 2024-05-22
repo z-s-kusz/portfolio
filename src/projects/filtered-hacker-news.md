@@ -1,6 +1,7 @@
 ---
 tags: projects
 permalink: false
+importance: 9
 links:
     main: https://x-filter-for-hn.netlify.app/
     github: https://github.com/z-s-kusz/hn-x-filter
