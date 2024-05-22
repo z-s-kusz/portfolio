@@ -15,5 +15,5 @@ This site lets people look up what songs we can play, eliminating down time.
 Database populated by scraping wikipedia tables.
 
 <div class="text-blue-400 border-t-2 border-zinc-50 mt-4 pt-4">
-SPA, Google Cloud Firestore, Vue 3, Typescript, SCSS, Vuetify, node, cheerio
+Google Cloud Firestore, Vue 3, Typescript, SCSS, Vuetify, node, cheerio
 </div>

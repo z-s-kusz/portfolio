@@ -13,5 +13,5 @@ Although it has a rough feel style-wise I'm proud of the small games I made in i
 Be sure to check out Color Golf, Color Stack, and the Poetry db.
 
 <div class="text-blue-400 border-t-2 border-zinc-50 mt-4 pt-4">
-SPA, Vue 2, node, heroku, Netlify Cloud Functions, poetry api
+Vue 2, node, heroku, Netlify Cloud Functions, poetry api
 </div>

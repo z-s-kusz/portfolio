@@ -13,5 +13,5 @@ It's a fast way to add flair to notes so they feel less static.
 I've taken most down since the campaigns (and heroku's free hosting) ended.
 
 <div class="text-blue-400 border-t-2 border-zinc-50 mt-4 pt-4">
-HTML5, CSS3, Markdown/yaml, heroku, netlify
+HTML5, CSS3, Markdown/yaml, heroku
 </div>

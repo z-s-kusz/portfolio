@@ -33,7 +33,7 @@
     <section class="grid auto-rows-auto grid-cols-1 md:grid-cols-3 xl:grid-cols-4 md:mx-8">
         {% for project in collections.sortedProjects -%}
             <article class="p-8 m-2 md:m-4 rounded-lg border-4 border-green-500 flex flex-col justify-between">
-                <h3 class="text-blue-400 text-center">
+                <h3 class="text-blue-400 text-center text-lg">
                     {% if project.data.links.main -%}
                     <a href={{ project.data.links.main }} target="_blank" class="underline">{{ project.data.title }}</a>
                     {%- else -%}
@@ -63,7 +63,7 @@
         <h2 class="text-2xl p-8 text-center border-b-2 border-zinc-50">FAQ</h2>
         {% for faq in collections.faq -%}
             <article class="p-8 max-w-2xl">
-                <h3 class="text-blue-400">{{ faq.data.title }}</h3>
+                <h3 class="text-blue-400 text-lg">{{ faq.data.title }}</h3>
                 <p>{{ faq.content | safe }}</p>
             </article>
         {%- endfor -%}

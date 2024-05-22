@@ -13,5 +13,5 @@ But what makes this site unique is that it uses an LLM to perform sentiment anal
 Take a look at the page's about section for more details.
 
 <div class="text-blue-400 border-t-2 border-zinc-50 mt-4 pt-4">
-SPA, SolidJS, ChatGPT-3.5-Tubo, AI Sentiment Analysis
+SolidJS, ChatGPT-3.5-Tubo, AI Sentiment Analysis
 </div>
