@@ -8,7 +8,7 @@ links:
 title: Micro Drone Weather Forecast
 ---
 
-App that presents summaries for flying conditions rather than just reporting numbers. Accounts for precipitation, temp, ground-wind speed and elevated-wind speed. Irrelevant data is trimmed before feeding it to ChatGPT along with prompt instructions.
+App that presents summaries for flying conditions rather than just reporting numbers. Accounts for precip, temp, ground-wind speed and elevated-wind speed. Irrelevant data is trimmed before feeding it to ChatGPT along with prompt instructions.
 <div class="text-blue-400 border-t-2 border-zinc-50 mt-4 pt-4">
     Svelte, Open-Meteo API, OpenAI API
 </div>
