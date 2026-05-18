@@ -1,5 +1,5 @@
 ---
-tags: projects
+tags: projects, hidden
 permalink: false
 importance: 0
 links:
