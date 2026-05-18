@@ -6,6 +6,8 @@ links:
     main: null
     github: https://github.com/z-s-kusz/mhw-weakness-finder
 title: MH World Guide (deprecated)
+initDate: Mar 2018
+recentDate: null
 ---
 
 A quicksearch filter to access the game's creature stats quickly.

@@ -6,6 +6,8 @@ links:
     main: https://color-golf.netlify.app/poetry
     github: https://github.com/z-s-kusz/short-attention-span-js
 title: SAS JS/Color Golf/Color Stack
+initDate: Mar 2020
+recentDate: Sept 2025
 ---
 
 This catch all site began as a way to learn Vue 2.

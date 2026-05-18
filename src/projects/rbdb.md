@@ -7,6 +7,8 @@ links:
     github: https://github.com/z-s-kusz/z-rbdb
     github2: https://github.com/z-s-kusz/z-rbdb-data-populator
 title: Rock Band Database
+initDate: May 2023
+recentDate: null
 ---
 
 “Rock Band still exists and you play it?” Yes!

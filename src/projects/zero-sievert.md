@@ -6,6 +6,8 @@ links:
     main: https://zs-loot-tracker.netlify.app/
     github: https://github.com/z-s-kusz/zero-sievert-quest-helper
 title: Zero-Sievert Quest Helper
+initDate: Feb 2023
+recentDate: null
 ---
 
 I created this to help me track items and item counts across all active quests in Zero Sievert.

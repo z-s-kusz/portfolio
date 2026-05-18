@@ -6,6 +6,8 @@ links:
     main: https://deconstructed-lego.com
     github: https://github.com/z-s-kusz/deconstructed-lego
 title: Deconstructed Lego
+initDate: April 2023
+recentDate: Current
 ---
 
 This started as a tech test and became one of my favorite projects!

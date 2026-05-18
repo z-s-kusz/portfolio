@@ -6,6 +6,8 @@ links:
     main: null
     github: https://github.com/z-s-kusz/halloween-2021
 title: DnD/Pathfinder Pages (deprecated)
+initDate: Oct 2019
+recentDate: null
 ---
 
 I often take notes in my rpg campaigns through html and markdown (styling after the fact).

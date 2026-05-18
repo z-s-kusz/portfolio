@@ -6,6 +6,8 @@ links:
     main: https://formar-los-grupos.netlify.app
     github: https://github.com/z-s-kusz/pods
 title: Formar Los Grupos
+initDate: Oct 2020
+recentDate: null
 ---
 
 My wife was frustrated with existing generators for grouping her class for activities.

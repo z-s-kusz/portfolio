@@ -6,6 +6,8 @@ links:
     main: https://x-filter-for-hn.netlify.app/
     github: https://github.com/z-s-kusz/hn-x-filter
 title: Filtered Hacker News Browser
+initDate: April 2024
+recentDate: Current
 ---
 
 On the surface this is just another browser for Ycombinator's Hacker News site.

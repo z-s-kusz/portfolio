@@ -6,6 +6,8 @@ links:
     main: null
     github: https://github.com/z-s-kusz/portfolio
 title: Web Portfolio (this site)
+initDate: May 2023
+recentDate: Current
 ---
 
 After getting feedback that my projects weren't professional enough

@@ -6,6 +6,8 @@ links:
     main: https://tiny-drone-forecast.netlify.app/
     github: https://github.com/z-s-kusz/drone-weather
 title: Micro Drone Weather Forecast
+initDate: Nov 2024
+recentDate: null
 ---
 
 App that presents summaries for flying conditions rather than just reporting numbers. Accounts for precip, temp, ground-wind speed and elevated-wind speed. Irrelevant data is trimmed before feeding it to ChatGPT along with prompt instructions.
